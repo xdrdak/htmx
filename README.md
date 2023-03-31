@@ -70,6 +70,18 @@ Note there is an old broken package called `htmx`.  This is `htmx.org`.
 * development pull requests should be against the `dev` branch, docs fixes can be made directly against `master`
 * No time? Then [become a sponsor](https://github.com/sponsors/bigskysoftware#sponsors)
 
+### running the website locally
+
+The htmx.org website is built on [eleventy](https://www.11ty.dev/).
+To run the site, use node 15 and run:
+
+```
+npm install
+npm run docs
+```
+
+The site should then be available at <http://localhost:8080>
+
 ### hacking guide
 
 To develop htmx locally, you will need to install the development dependencies.
